@@ -7,6 +7,9 @@ package: Web services
 dependencies:
   - default_content
   - file_entity
+  - rest
+  - token
+  - admin_toolbar
 
 # Information added by Drupal.org packaging script on 2017-04-10
 version: '8.x-1.0-alpha5'
