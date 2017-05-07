@@ -5,11 +5,13 @@ description: 'dolebas_default_content'
 package: Web services
 # core: 8.x
 dependencies:
-  - default_content
-  - file_entity
   - rest
+  - file_entity
+  - default_content
   - token
   - admin_toolbar
+  - admin_toolbar_tools
+  - config
 
 # Information added by Drupal.org packaging script on 2017-04-10
 version: '8.x-1.0-alpha5'
