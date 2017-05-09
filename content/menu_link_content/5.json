@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/dev-develop2.pantheonsite.io\/admin\/structure\/menu\/item\/4\/edit?_format=hal_json"
+            "href": "http:\/\/dev-develop2.pantheonsite.io\/admin\/structure\/menu\/item\/5\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 4
+            "value": 5
         }
     ],
     "uuid": [
         {
-            "value": "ec05808f-0cef-444f-9833-7064ea387f4a"
+            "value": "ce1d383f-b343-4c8a-b33c-03a08f478125"
         }
     ],
     "langcode": [
@@ -30,7 +30,7 @@
     ],
     "title": [
         {
-            "value": "Desktop prototype",
+            "value": "Mobile prototype",
             "lang": "en"
         }
     ],
@@ -41,7 +41,7 @@
     ],
     "link": [
         {
-            "uri": "https:\/\/invis.io\/Y8BIFKKNB",
+            "uri": "https:\/\/invis.io\/2TBIFKO46",
             "title": "",
             "options": []
         }
@@ -73,7 +73,7 @@
     ],
     "changed": [
         {
-            "value": 1494327993,
+            "value": 1494328059,
             "lang": "en"
         }
     ],
