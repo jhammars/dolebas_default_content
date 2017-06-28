@@ -2,7 +2,7 @@ name: 'dolebas_default_content'
 type: module
 hidden: FALSE
 description: 'dolebas_default_content'
-package: Web services
+package: Dolebas
 # core: 8.x
 dependencies:
   - drupal:rest
