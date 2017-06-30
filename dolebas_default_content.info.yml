@@ -1,7 +1,7 @@
 name: 'Dolebas Default Content'
 type: module
 hidden: FALSE
-description: 'dolebas_default_content'
+description: 'Dolebas default content and content types'
 package: Dolebas
 # core: 8.x
 dependencies:
@@ -15,8 +15,9 @@ dependencies:
   - drupal:field_ui
   - drupal:menu_ui
   - jsonapi:jsonapi
-  - drupal:views_ui
-  - drupal:path
+  - dolebas_payments:dolebas_payments
+  - dolebas_uploader:dolebas_uploader
+  - dolebas_publisher:dolebas_publisher
 
 # Information added by Drupal.org packaging script on 2017-04-10
 version: '8.x-1.0-alpha5'
