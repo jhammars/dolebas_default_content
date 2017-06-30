@@ -15,8 +15,8 @@ dependencies:
   - drupal:field_ui
   - drupal:menu_ui
   - jsonapi:jsonapi
-  - dolebas_payments:dolebas_payments
-  - dolebas_uploader:dolebas_uploader
+#  - dolebas_payments:dolebas_payments
+#  - dolebas_uploader:dolebas_uploader
   - dolebas_publisher:dolebas_publisher
 
 # Information added by Drupal.org packaging script on 2017-04-10

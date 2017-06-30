@@ -7,22 +7,24 @@
  */
 function dolebas_default_content_uninstall() {
 
-  // Delete dolebas_transaction content type
-  if ( $entity = \Drupal::entityTypeManager()->getStorage('node_type')->load('dolebas_transaction') ) {
-    $entity = \Drupal::entityTypeManager()
-      ->getStorage('node_type')
-      ->load('dolebas_transaction');
-    $entity->delete();
-  }
+  // TODO: Delete related content
 
-  // Delete dolebas_publisher content type
-  if ( $entity = \Drupal::entityTypeManager()->getStorage('node_type')->load('dolebas_publisher') ) {
-    $entity = \Drupal::entityTypeManager()
-      ->getStorage('node_type')
-      ->load('dolebas_publisher');
-    $entity->delete();
-  }
-
-  field_purge_batch(100);
+//  // Delete dolebas_transaction content type
+//  if ( $entity = \Drupal::entityTypeManager()->getStorage('node_type')->load('dolebas_transaction') ) {
+//    $entity = \Drupal::entityTypeManager()
+//      ->getStorage('node_type')
+//      ->load('dolebas_transaction');
+//    $entity->delete();
+//  }
+//
+//  // Delete dolebas_publisher content type
+//  if ( $entity = \Drupal::entityTypeManager()->getStorage('node_type')->load('dolebas_publisher') ) {
+//    $entity = \Drupal::entityTypeManager()
+//      ->getStorage('node_type')
+//      ->load('dolebas_publisher');
+//    $entity->delete();
+//  }
+//
+//  field_purge_batch(100);
 
 }
