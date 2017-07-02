@@ -16,8 +16,6 @@ dependencies:
   - drupal:menu_ui
   - jsonapi:jsonapi
   - require_login:require:login
-#  - dolebas_payments:dolebas_payments
-#  - dolebas_uploader:dolebas_uploader
   - dolebas_publisher:dolebas_publisher
 
 # Information added by Drupal.org packaging script on 2017-04-10
