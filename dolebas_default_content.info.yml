@@ -6,6 +6,7 @@ package: Dolebas
 # core: 8.x
 dependencies:
   - drupal:rest
+  - drupal:path
   - file_entity:file_entity
   - default_content:default_content
   - token:token
@@ -15,7 +16,7 @@ dependencies:
   - drupal:field_ui
   - drupal:menu_ui
   - jsonapi:jsonapi
-  - require_login:require:login
+  - require_login:require_login
   - dolebas_publisher:dolebas_publisher
 
 # Information added by Drupal.org packaging script on 2017-04-10
