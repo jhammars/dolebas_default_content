@@ -7,17 +7,19 @@ package: Dolebas
 dependencies:
   - drupal:rest
   - drupal:path
+  - drupal:config
+  - drupal:field_ui
+  - drupal:menu_ui
+  - drupal:views_ui
   - file_entity:file_entity
   - default_content:default_content
   - token:token
   - admin_toolbar:admin_toolbar_tools
   - admin_toolbar:admin_toolbar
-  - drupal:config
-  - drupal:field_ui
-  - drupal:menu_ui
-  - drupal:views_ui
   - jsonapi:jsonapi
   - require_login:require_login
+  - eva:eva
+  - exclude_node_title:exclude_node_title
   - dolebas_publisher:dolebas_publisher
   - dolebas_player:dolebas_player
 
