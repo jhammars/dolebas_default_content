@@ -5,6 +5,7 @@
         "drupal/default_content": "*",
         "drupal/views_bootstrap": "*",
         "drupal/exclude_node_title": "*",
+        "drupal/require_login": "*",
         "dolebas/dolebas_publisher": "*",
         "dolebas/dolebas_player": "*"
     }
