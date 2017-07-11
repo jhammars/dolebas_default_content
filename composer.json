@@ -1,4 +1,9 @@
 {
     "name": "dolebas/dolebas_default_content",
-    "type": "drupal-custom-module"
+    "type": "drupal-custom-module",
+    "require": {
+        "drupal/default_content": "*",
+        "drupal/views_bootstrap": "*",
+        "drupal/exclude_node_title": "*"
+    }
 }
