@@ -4,6 +4,8 @@
     "require": {
         "drupal/default_content": "*",
         "drupal/views_bootstrap": "*",
-        "drupal/exclude_node_title": "*"
+        "drupal/exclude_node_title": "*",
+        "dolebas/dolebas_publisher": "*",
+        "dolebas/dolebas_player": "*"
     }
 }
