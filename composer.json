@@ -2,7 +2,7 @@
     "name": "dolebas/dolebas_default_content",
     "type": "drupal-custom-module",
     "require": {
-        "drupal/default_content": "*",
+        "drupal/default_content": "*@alpha",
         "drupal/views_bootstrap": "*",
         "drupal/exclude_node_title": "*",
         "drupal/require_login": "*",
