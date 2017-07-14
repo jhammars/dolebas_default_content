@@ -7,6 +7,9 @@
  */
 function dolebas_default_content_uninstall() {
 
+  // Delete contrib moudle exclude_node_title settings (enforced dependency in yml doesn't work)
+  Drupal::configFactory()->getEditable('exclude_node_title.settings')->delete();
+
   // Query and delete related content
   $query = \Drupal::entityQuery('node');
   $group = $query->orConditionGroup()
