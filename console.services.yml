@@ -1,0 +1,7 @@
+services:
+  dolebas_default_content.dolebas_default_content_default:
+    class: Drupal\dolebas_default_content\Command\DefaultCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+
