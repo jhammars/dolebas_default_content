@@ -14,7 +14,7 @@ dependencies:
     - user
     - views_bootstrap
 _core:
-  default_config_hash: 8BVNsJ16OE0e4QZ6M6ArHRpxTtRSvKUwoBQiTDrHAPc
+  default_config_hash: 97cWui-wt-BLfn6AJekP2IKseNU6zDe1mxjIXIW8s3Y
 id: dolebas_me_view
 label: 'Dolebas Me View'
 module: views
