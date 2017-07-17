@@ -17,6 +17,8 @@ dependencies:
   - drupal:field
   - drupal:block
   - drupal:filter
+  - drupal:page_cache
+  - drupal:dynamic_page_cache
 #  - file_entity:file_entity
   - default_content:default_content
 #  - token:token
