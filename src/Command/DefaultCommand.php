@@ -38,8 +38,8 @@ class DefaultCommand extends Command {
 
     $io->info($this->trans('commands.dolebas_default_content.default.messages.success'));
     
-
     // Insert code for testing purposes here
+    \Drupal::service('config.factory')->getEditable('block.block.dolebas_subtheme_branding')->delete();
 
 
   }

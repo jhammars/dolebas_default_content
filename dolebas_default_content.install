@@ -1,6 +1,37 @@
 <?php
 
 /**
+ * Implements hook_install().
+ *
+ * Perform actions when the module is installed.
+ * 
+ */
+function dolebas_default_content_install() {
+  
+// Hide node titles for the content types below
+  \Drupal::service('config.factory')->getEditable('exclude_node_title.settings')->setData(array(
+    'nid_list' => [],
+    'translation_sync' => true,
+    'search' => false,
+    'content_types' => array(
+      'dolebas_publisher' => 'all',
+      'dolebas_transaction' => 'all',
+    ),
+    'content_type_modes' => array(
+      'dolebas_publisher' => array(
+        'full'
+      ),
+      'dolebas_transaction' => array(
+        'full'
+      ),
+    ),
+  ))
+  ->save();
+
+}
+
+
+/**
  * Implements hook_uninstall().
  *
  * Cleans up config entities installed by this module.
