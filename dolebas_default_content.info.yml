@@ -12,6 +12,11 @@ dependencies:
   - drupal:menu_ui
   - drupal:views_ui
   - drupal:dblog
+  - drupal:node
+  - drupal:text
+  - drupal:field
+  - drupal:block
+  - drupal:filter
 #  - file_entity:file_entity
   - default_content:default_content
 #  - token:token
