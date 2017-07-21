@@ -18,7 +18,6 @@ dependencies:
   - admin_toolbar:admin_toolbar_tools
   - admin_toolbar:admin_toolbar
   - jsonapi:jsonapi
-  - require_login:require_login
   - eva:eva
   - exclude_node_title:exclude_node_title
   - views_bootstrap:views_bootstrap
