@@ -7,8 +7,21 @@
  * 
  */
 function dolebas_default_content_install() {
+
+  // Remove unwanted blocks
+  $theme = 'dolebas_subtheme';
+  $provider = 'dolebas';
   
-// Hide node titles for the content types below
+  $ids = \Drupal::entityQuery('block')
+            ->condition('theme', $theme)
+            ->condition('settings.provider', $provider, '<>')
+            ->execute();
+  
+  $controller = \Drupal::entityTypeManager()->getStorage('block');
+  $entities = $controller->loadMultiple($ids);
+  $controller->delete($entities);
+
+  // Hide node titles for the content types below
   \Drupal::service('config.factory')->getEditable('exclude_node_title.settings')->setData(array(
     'nid_list' => [],
     'translation_sync' => true,
@@ -46,6 +59,7 @@ function dolebas_default_content_uninstall() {
   $group = $query->orConditionGroup()
     ->condition('type', 'dolebas_transaction')
     ->condition('type', 'dolebas_publisher')
+    ->condition('type', 'dolebas_user_email')    
   ;
   $query->condition($group);
   $nids = $query->execute();

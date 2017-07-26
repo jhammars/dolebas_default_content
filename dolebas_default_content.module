@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains dolebas_default_content.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_theme()
+ * @return mixed
+ */
+function dolebas_default_content_theme() {
+
+  $theme['dolebas_site_branding_block'] = array(
+    'variables' => array(
+      'my_variable' => NULL,
+    ),
+    'template' => 'dolebas_site_branding_block',
+  );
+
+  return $theme;
+
+}
