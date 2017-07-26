@@ -6,6 +6,6 @@
         "drupal/views_bootstrap": "@dev",
         "drupal/exclude_node_title": "*",
         "drupal/libraries": "@dev",
-        "drupal/fontawesome": "*",
+        "drupal/fontawesome": "*"
     }
 }
