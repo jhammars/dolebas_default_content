@@ -17,7 +17,7 @@ dependencies:
   - default_content:default_content
   - admin_toolbar:admin_toolbar_tools
   - admin_toolbar:admin_toolbar
-  - jsonapi:jsonapi
+#   - jsonapi:jsonapi
   - eva:eva
   - exclude_node_title:exclude_node_title
   - views_bootstrap:views_bootstrap
@@ -26,6 +26,7 @@ dependencies:
   - dolebas_publisher:dolebas_publisher
   - dolebas_player:dolebas_player
   - dolebas_user:dolebas_user
+  - smtp:smtp
 
 # Information added by Drupal.org packaging script on 2017-04-10
 version: '8.x-1.0-alpha5'
