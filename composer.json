@@ -2,10 +2,9 @@
     "name": "dolebas/dolebas_default_content",
     "type": "drupal-custom-module",
     "require": {
-        "drupal/default_content": "*@alpha",
-        "drupal/views_bootstrap": "@dev",
-        "drupal/exclude_node_title": "*",
-        "drupal/libraries": "@dev",
-        "drupal/fontawesome": "*"
+        "drupal/default_content": "^1.0.0-alpha6",
+        "drupal/exclude_node_title": "^1.0.0-beta1",
+        "drupal/fontawesome": "^1.2.0",
+        "drupal/passwordless": "^1.1"
     }
 }
