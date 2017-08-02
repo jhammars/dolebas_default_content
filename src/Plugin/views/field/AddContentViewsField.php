@@ -38,8 +38,10 @@ class AddContentViewsField extends FieldPluginBase {
     
     if ( count($existing_nodes) == 0 ) {
       // Create new unpublished node
+      $uuid = \Drupal::service('uuid')->generate();
       $new_node = \Drupal\node\Entity\Node::create(
-        array(  'title'   => 'Dolebas Parent',
+        array(  'title'   => $uuid,
+                'uuid'    => $uuid,
                 'status'  => 0,
                 'type'    => 'dolebas_publisher',  )
       );
