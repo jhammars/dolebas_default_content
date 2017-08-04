@@ -41,7 +41,7 @@ function dolebas_default_content_install() {
   ))
   ->save();
   
-  // Configure SMTP
+  // Configure smtp
   \Drupal::service('config.factory')->getEditable('smtp.settings')->setData(array(
     'smtp_on' => true,
     'smtp_host' => 'smtp.mailgun.org',
@@ -60,6 +60,14 @@ function dolebas_default_content_install() {
     'prev_mail_system' => 'php_mail'
   ))
   ->save(); 
+
+  // Configure require_login
+  \Drupal::service('config.factory')->getEditable('require_login.config')->setData(array(
+      'deny_message' => '',
+      'excluded_paths' => "/user/*",
+      'auth_path' => ''
+  ))
+  ->save();  
 
 }
 
