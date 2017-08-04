@@ -64,7 +64,7 @@ function dolebas_default_content_install() {
   // Configure require_login
   \Drupal::service('config.factory')->getEditable('require_login.config')->setData(array(
       'deny_message' => '',
-      'excluded_paths' => "/user/*",
+      'excluded_paths' => "/user/*\n/autologinurl/*",
       'auth_path' => ''
   ))
   ->save();  

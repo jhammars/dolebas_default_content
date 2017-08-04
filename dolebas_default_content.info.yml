@@ -24,7 +24,7 @@ dependencies:
   - libraries:libraries
   - fontawesome:fontawesome
   - smtp:smtp
-  - passwordless:passwordless  
+  - auto_login_url:auto_login_url 
   - require_login
   - dolebas_publisher:dolebas_publisher
   - dolebas_player:dolebas_player
