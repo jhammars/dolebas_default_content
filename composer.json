@@ -6,6 +6,7 @@
         "drupal/exclude_node_title": "^1.0.0-beta1",
         "drupal/fontawesome": "^1.2.0",
         "drupal/passwordless": "^1.1",
-        "drupal/smtp": "^1.0@beta"
+        "drupal/smtp": "^1.0@beta",
+        "drupal/require_login": "^1.1", 
     }
 }
