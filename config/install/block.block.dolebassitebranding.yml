@@ -3,8 +3,7 @@ status: true
 dependencies:
   module:
     - dolebas_default_content
-  theme:
-    - dolebas_subtheme
+    - dolebas_config
 id: dolebassitebranding
 theme: dolebas_subtheme
 region: navigation
