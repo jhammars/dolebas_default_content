@@ -26,8 +26,8 @@ class DefaultCommand extends Command {
    */
   protected function configure() {
     $this
-      ->setName('dolebas_default_content:default')
-      ->setDescription($this->trans('commands.dolebas_default_content.default.description'));
+      ->setName('dolebas:test')
+      ->setDescription('Command for running dev tests');
   }
 
   /**
@@ -36,11 +36,51 @@ class DefaultCommand extends Command {
   protected function execute(InputInterface $input, OutputInterface $output) {
     $io = new DrupalStyle($input, $output);
 
-    $io->info($this->trans('commands.dolebas_default_content.default.messages.success'));
-    
-    // Insert code for testing purposes here
-    \Drupal::service('config.factory')->getEditable('block.block.dolebas_subtheme_branding')->delete();
+  // private function stripeHostedTest(array &$form, FormStateInterface $form_state) {
+  //   $config = \Drupal::config('dolebas_config.config');
+  //   $stripe_api_sk = $config->get('stripe_api_sk');
+  //   \Stripe\Stripe::setApiKey($stripe_api_sk);
+  //   $card =  array(
+  //     "number" => "4242424242424242",
+  //     "exp_month" => 5,
+  //     "exp_year" => 2018,
+  //     "cvc" => "314"
+  //   );
+  //   //$this->paymentService->
+  //   $token = \Stripe\Token::create(array(
+  //     "card" => array(
+  //       "number" => "4242424242424242",
+  //       "exp_month" => 5,
+  //       "exp_year" => 2018,
+  //       "cvc" => "314"
+  //     )
+  //   ));
+  //   $charge = $this->paymentService->stripeCharge($form_state->getValue('amount'), $form_state->getValue('currency'), $token);
+  //   //print'<pre>';print_r($token->id);exit;
 
+
+//    $url_raw = 'http://develop.kbox.site/user';
+//    $encoded_url = bin2hex($url_raw);
+//    $decoded_url = hex2bin($encoded_url);
+
+    // $query = \Drupal::entityQuery('node');
+    // $group = $query->orConditionGroup()
+    //   ->condition('type', 'dolebas_transaction')
+    //   ->condition('type', 'dolebas_publisher')
+    // ;
+    // $query->condition($group);
+    // $nids = $query->execute();
+    // $nodes = \Drupal\node\Entity\Node::loadMultiple($nids);
+    // foreach($nodes as $node) {
+    //   $node->delete();
+    // }
+
+    // drupal_set_message(''. print_r($nids, TRUE) .'');
+
+    // Insert code for testing purposes here
+    $myTest = 'testing';
+    $io->info($myTest);
+    
 
   }
 }

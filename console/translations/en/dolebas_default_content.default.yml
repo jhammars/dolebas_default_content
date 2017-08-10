@@ -1,5 +1,0 @@
-description: 'Drupal Console generated command.'
-options: {}
-arguments: {}
-messages:
-    success: 'I am a message defined in dolebas_default_content.default.yml'
