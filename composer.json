@@ -9,6 +9,7 @@
         "drupal/smtp": "^1.0@beta",
         "drupal/require_login": "^1.1",
         "drupal/mailsystem": "^4.1",
-        "drupal/simple_mail": "^1.1"
+        "drupal/simple_mail": "^1.1",
+        "drupal/url_redirect": "^1.4"
     }
 }

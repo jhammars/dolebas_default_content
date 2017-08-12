@@ -78,6 +78,26 @@ class DefaultCommand extends Command {
     // drupal_set_message(''. print_r($nids, TRUE) .'');
 
     // Insert code for testing purposes here
+    
+  // // Set default admin theme
+  // \Drupal::configFactory()
+  // ->getEditable('system.site')
+  // ->set('page.front', '/me')   
+  // ->save();    
+    
+      //   // Inserting the data in the url_redirect table.
+      // $query = \Drupal::database();
+      // $query->insert('url_redirect')->fields(array(
+      //   'path' => 'myPath/*',
+      //   'roles' => '{"authenticated":"authenticated"}',
+      //   'users' => '',
+      //   'redirect_path' => '/',
+      //   'status' => '1',
+      //   'message' => 'No',
+      //   'check_for' => 'Role',
+      // ))
+      // ->execute();
+    
     $myTest = 'testing';
     $io->info($myTest);
     

@@ -196,7 +196,7 @@ display:
           entity_type: node
           entity_field: created
           plugin_id: date
-      title: 'Dolebas Me View'
+      title: 'Dolebas'
       header: {  }
       footer: {  }
       empty: {  }
@@ -265,7 +265,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: dolebas-me-view
+      path: me
     cache_metadata:
       max-age: -1
       contexts:
