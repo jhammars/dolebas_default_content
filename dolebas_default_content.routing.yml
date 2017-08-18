@@ -1,0 +1,7 @@
+dolebas_default_content.dolebas_pricing_page:
+  path: '/pricing'
+  defaults:
+    _controller: '\Drupal\dolebas_default_content\Controller\DolebasPricingPage::render'
+    _title: 'Pricing'
+  requirements:
+    _permission: 'access content'
