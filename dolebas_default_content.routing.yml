@@ -1,7 +1,23 @@
-dolebas_default_content.dolebas_pricing_page:
+dolebas_default_content.pricing:
   path: '/pricing'
   defaults:
-    _controller: '\Drupal\dolebas_default_content\Controller\DolebasPricingPage::render'
+    _controller: '\Drupal\dolebas_default_content\Controller\DolebasCustomPage::dolebasPricing'
     _title: 'Pricing'
   requirements:
     _permission: 'access content'
+
+dolebas_default_content.terms:
+  path: '/terms'
+  defaults:
+    _controller: '\Drupal\dolebas_default_content\Controller\DolebasCustomPage::dolebasTerms'
+    _title: 'Terms of Service'
+  requirements:
+    _permission: 'access content'
+    
+dolebas_default_content.privacy:
+  path: '/privacy'
+  defaults:
+    _controller: '\Drupal\dolebas_default_content\Controller\DolebasCustomPage::dolebasPrivacy'
+    _title: 'Privacy Policy'
+  requirements:
+    _permission: 'access content'    

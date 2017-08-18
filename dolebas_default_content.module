@@ -22,17 +22,10 @@ function dolebas_default_content_theme() {
 
   $theme['dolebas_footer_block'] = array(
     'variables' => array(
-      'my_variable' => NULL,
+      'my_variable' => NULL
     ),
     'template' => 'dolebas_footer_block',
   );
-  
-  $theme['dolebas_pricing_page'] = array(
-    'variables' => array(
-      'my_variable' => NULL,
-    ),
-    'template' => 'dolebas_pricing_page',
-  );  
 
   return $theme;
 
