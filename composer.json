@@ -11,6 +11,7 @@
         "drupal/mailsystem": "^4.1",
         "drupal/simple_mail": "^1.1",
         "drupal/url_redirect": "^1.4",
+        "drupal/address": "^1.1",
         "erusev/parsedown": "^1.6"
     }
 }
