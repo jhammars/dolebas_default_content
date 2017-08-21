@@ -14,6 +14,7 @@ dependencies:
   - drupal:block
   - drupal:page_cache
   - drupal:dynamic_page_cache
+  - drupal:contact
   - default_content:default_content
   - admin_toolbar:admin_toolbar_tools
   - admin_toolbar:admin_toolbar
@@ -28,6 +29,7 @@ dependencies:
   - require_login:require_login
   - mailsystem:mailsystem
   - simple_mail:simple_mail
+  - address:address
   - dolebas_publisher:dolebas_publisher
   - dolebas_player:dolebas_player
   - dolebas_user:dolebas_user
