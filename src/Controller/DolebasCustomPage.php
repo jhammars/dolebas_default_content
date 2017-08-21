@@ -43,5 +43,16 @@ class DolebasCustomPage extends ControllerBase {
     
     return array('#markup' => $parsed_md);  
   }
+  
+  public function dolebasProhibited() {
+
+    $md_file_name = 'prohibited-content-and-conduct.md';
+    $md_file_path = drupal_get_path('module', 'dolebas_default_content') . '/includes/' . $md_file_name;
+    $md_file = fopen($md_file_path, "r");
+    $md_file_content = fread($md_file,filesize($md_file_path));
+    $parsed_md = (new Parsedown())->text($md_file_content);
+    
+    return array('#markup' => $parsed_md);  
+  }  
 
 }

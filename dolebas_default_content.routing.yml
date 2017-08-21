@@ -21,3 +21,11 @@ dolebas_default_content.privacy:
     _title: 'Privacy Policy'
   requirements:
     _permission: 'access content'    
+
+dolebas_default_content.prohibited:
+  path: '/prohibited-content-and-conduct'
+  defaults:
+    _controller: '\Drupal\dolebas_default_content\Controller\DolebasCustomPage::dolebasProhibited'
+    _title: 'Prohibited Content and Conduct'
+  requirements:
+    _permission: 'access content'        

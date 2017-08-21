@@ -10,11 +10,11 @@ By granting your child permission to use our Service, you agree to the Terms of 
 
 You are responsible for maintaining the security of your account, and you are fully responsible for all activities that occur under the account and any other actions taken in connection with your account. You must immediately notify us of any unauthorized uses of your account, or any other breaches of security. We will not be liable for any acts or omissions by you, including any damages of any kind incurred as a result of such acts or omissions.
 
-**Prohibited Content and Acitivities - Your Responsibilities**
+**Prohibited Content and Conduct - Your Responsibilities**
 
 If you post material to our Platform or otherwise make (or allow any third party to make) material available (any such material, “Content”), you are entirely responsible for the content of, and any harm resulting from, that Content or your conduct. That is the case regardless of what form the Content takes, which includes, but is not limited to text, photo, video, or audio.
 
-<u>By using our Platform, you represent and warrant that your Content and conduct do not violate these Terms or Dolebas Content and Activity Restrictions.</u>
+<u>By using our Platform, you represent and warrant that your Content and conduct do not violate these Terms or our [**Prohibited Content and Conduct**][3].</u>
 
 Dolebas has the right (though not the obligation) to, in Dolebas sole discretion, (i) reclaim your username, (ii) refuse or remove any content, or (iii) terminate or deny access to and use of our Platform to any individual or entity for any reason. Dolebas will have no obligation to provide a refund of any amounts previously paid.
 
@@ -96,3 +96,4 @@ You may assign your rights under this Agreement to any party that consents to, a
 
 [1]: /privacy
 [2]: /dmca-notice
+[3]: /prohibited-content-and-conduct
