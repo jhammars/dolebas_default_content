@@ -19,6 +19,9 @@ function MYMODULE_modules_installed($modules) {
  */
 function dolebas_default_content_install() {
 
+  // Add path alias for DMCA notice form
+  \Drupal::service('path.alias_storage')->save('/contact/dolebas_dmca_notice', '/dmca-notice');
+
   // Set default admin theme
   \Drupal::configFactory()
    ->getEditable('system.site')
