@@ -1,6 +1,6 @@
 The following terms and conditions (“Terms”) govern all use of Dolebas Video Sharing Platform (including, without limitation, our website dolebas.com), (“our Platform”) and all content, services, and products available at or through our Platform (taken together, our “Services”). 
 
-Whether you are a visitor, or a user, either an individual or a single entity ("you", "your" as applicable), our Services are offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, [Dolebas Privacy Policy][1]) and procedures that we may published from time to time (collectively, the “Agreement”). You agree that we may automatically upgrade our Services, and these Terms will apply to any upgrades. Regardsless of where you reside, your agreement is with Dolebas Inc. (US) (“Dolebas”, “we” or “us”).
+Whether you are a visitor, or a user, either an individual or a single entity ("you", "your" as applicable), our Services are offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, [**Dolebas Privacy Policy**][1]) and procedures that we may published from time to time (collectively, the “Agreement”). You agree that we may automatically upgrade our Services, and these Terms will apply to any upgrades. Regardsless of where you reside, your agreement is with Dolebas Inc. (US) (“Dolebas”, “we” or “us”).
 
 <u>Please read this Agreement carefully before accessing or using our Services. By accessing or using any part of our Services, you understand and agree to become bound by the Terms of this Agreement.</u> If you do not agree to all the Terms of this Agreement, then you may not access or use any of our Services. If these Terms are considered an offer by Dolebas, acceptance is expressly limited to these Terms.
 
@@ -40,7 +40,7 @@ We have not reviewed, and cannot review, all of the material made available thro
 
 **Copyright Infringement and DMCA Policy**
 
-As Dolebas asks others to respect its intellectual property rights, it respects the intellectual property rights of others. If you believe that material located on or linked to by our Platform violates your copyright, you are encouraged to notify Dolebas in accordance with [Dolebas DMCA Notice][2]. Dolebas will respond to all such notices, including as required or appropriate by removing the infringing material or disabling all links to the infringing material. Dolebas will terminate a visitor’s access to and use of our Platform if the visitor is determined to be a repeat infringer of the copyrights or other intellectual property rights of Dolebas or others. In the case of such termination, Dolebas will have no obligation to provide a refund of any amounts previously paid to Dolebas.
+As Dolebas asks others to respect its intellectual property rights, it respects the intellectual property rights of others. If you believe that material located on or linked to by our Platform violates your copyright, you are encouraged to notify Dolebas in accordance with [**Dolebas DMCA Notice**][2]. Dolebas will respond to all such notices, including as required or appropriate by removing the infringing material or disabling all links to the infringing material. Dolebas will terminate a visitor’s access to and use of our Platform if the visitor is determined to be a repeat infringer of the copyrights or other intellectual property rights of Dolebas or others. In the case of such termination, Dolebas will have no obligation to provide a refund of any amounts previously paid to Dolebas.
 
 **Our Intellectual Property**
 
@@ -72,7 +72,7 @@ In no event will Dolebas, or its suppliers or licensors, be liable with respect 
 
 **General Representation and Warranty**
 
-You represent and warrant that (i) your use of our Services will be in strict accordance with Dolebas Privacy Policy, with this Agreement, and with all applicable laws and regulations (including without limitation any local laws or regulations in your country, state, city, or other governmental area, regarding online conduct and acceptable content, and including all applicable laws regarding the transmission of technical data exported from the United States or the country in which you reside) and (ii) your use of our Services will not infringe or misappropriate the intellectual property rights of any third party.
+You represent and warrant that (i) your use of our Services will be in strict accordance with [**Dolebas Privacy Policy**][1], with this Agreement, and with all applicable laws and regulations (including without limitation any local laws or regulations in your country, state, city, or other governmental area, regarding online conduct and acceptable content, and including all applicable laws regarding the transmission of technical data exported from the United States or the country in which you reside) and (ii) your use of our Services will not infringe or misappropriate the intellectual property rights of any third party.
 
 **US Economic Sanctions**
 
@@ -95,4 +95,4 @@ If any part of this Agreement is held invalid or unenforceable, that part will b
 You may assign your rights under this Agreement to any party that consents to, and agrees to be bound by, its terms and conditions; Dolebas may assign its rights under this Agreement without condition. This Agreement will be binding upon and will inure to the benefit of the parties, their successors and permitted assigns.
 
 [1]: /privacy
-[2]: https://www.google.com
+[2]: /dmca-notice
