@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - dolebas_default_content
+    - dolebas_config
+id: dolebasfooter
+theme: dolebas_subtheme
+region: footer
+weight: 0
+provider: null
+plugin: dolebas_footer_block
+settings:
+  id: dolebas_footer_block
+  label: 'Dolebas Footer'
+  provider: dolebas
+  label_display: '0'
+visibility: {  }
