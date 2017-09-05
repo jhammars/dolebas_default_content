@@ -29,3 +29,11 @@ dolebas_default_content.prohibited:
     _title: 'Prohibited Content and Conduct'
   requirements:
     _permission: 'access content'        
+    
+dolebas_default_content.default_controller_front:
+  path: '/front'
+  defaults:
+    _controller: '\Drupal\dolebas_default_content\Controller\DefaultController::front'
+    _title: 'Front'
+  requirements:
+    _permission: 'access content'

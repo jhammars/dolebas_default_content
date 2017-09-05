@@ -27,6 +27,30 @@ function dolebas_default_content_theme() {
     'template' => 'dolebas_footer_block',
   );
 
+  $theme['dolebas_default_content_block'] = array(
+    'variables' => array(
+      'dolebas_me_view' => NULL,
+      'frontpage_player_block' => NULL
+    ),
+    'template' => 'dolebas_default_content_block',
+  );
+
+  $theme['dolebas_sidebar_menu_block'] = array(
+    'variables' => array(
+      'my_var' => NULL
+    ),
+    'template' => 'dolebas_sidebar_menu_block',
+  );
+
+  $theme['dolebas_top_bar_block'] = array(
+    'variables' => array(
+      'dolebas_sidebar_menu_block' => NULL,
+      'dolebas_site_branding_block' => NULL,
+      'dolebas_user_display_block' => NULL,
+    ),
+    'template' => 'dolebas_top_bar_block',
+  );
+
   return $theme;
 
 }

@@ -1,0 +1,28 @@
+.dolebas-sidebar-menu-block .fa-bars {
+    font-size: 20px;
+    cursor:pointer;
+}
+.dolebas-sidebar-menu-block {
+    position:relative;
+    display:inline-block;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+}
+.dolebas-sidebar-menu {
+    display:none;
+    position: fixed;
+    left:0px;    
+    background: rgba(255, 255, 255, 1);
+    margin-top:10px;
+    width:200px;
+    height:90%;
+    z-index: -1;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 1px 7px 0 rgba(0, 0, 0, 0.15);   
+}
+.dolebas-sidebar-menu-content {
+    padding-top: 25px;
+    padding-left: 35px;
+    font-weight: bold;
+    line-height: 30px;
+}
