@@ -5,6 +5,9 @@ description: 'Dolebas default content and content types'
 package: Dolebas
 core: 8.x
 dependencies:
+  - dolebas_publisher:dolebas_publisher
+  - dolebas_player:dolebas_player
+  - dolebas_user:dolebas_user  
   - drupal:rest
   - drupal:path
   - drupal:field_ui
@@ -30,6 +33,5 @@ dependencies:
   - mailsystem:mailsystem
   - simple_mail:simple_mail
   - address:address
-  - dolebas_publisher:dolebas_publisher
-  - dolebas_player:dolebas_player
-  - dolebas_user:dolebas_user
+  - link_css:link_css
+
