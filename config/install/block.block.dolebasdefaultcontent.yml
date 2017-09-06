@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - dolebas_default_content
+    - system
+  theme:
+    - dolebas_subtheme
+id: dolebasdefaultcontent
+theme: dolebas_subtheme
+region: content
+weight: 0
+provider: null
+plugin: dolebas_default_content_block
+settings:
+  id: dolebas_default_content_block
+  label: 'Dolebas Default Content'
+  provider: dolebas_default_content
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /front
+    negate: false
+    context_mapping: {  }

@@ -3,16 +3,17 @@ status: true
 dependencies:
   module:
     - dolebas_default_content
-    - dolebas_config
-id: dolebassitebranding
+  theme:
+    - dolebas_subtheme
+id: dolebastopbar
 theme: dolebas_subtheme
 region: navigation
 weight: 0
 provider: null
-plugin: dolebas_site_branding_block
+plugin: dolebas_top_bar_block
 settings:
-  id: dolebas_site_branding_block
-  label: 'Dolebas Site Branding'
-  provider: dolebas
+  id: dolebas_top_bar_block
+  label: 'Dolebas Top Bar'
+  provider: dolebas_default_content
   label_display: '0'
 visibility: {  }

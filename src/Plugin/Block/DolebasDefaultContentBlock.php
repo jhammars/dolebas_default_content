@@ -28,6 +28,8 @@ class DolebasDefaultContentBlock extends BlockBase {
     $build['#attached']['library'] = 'dolebas_default_content/dolebas-default-content-block';
     
     $build['#theme'] = 'dolebas_default_content_block';
+    
+    // $build['#markup'] = "hello";
 
     return $build;
   }

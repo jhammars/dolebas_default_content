@@ -25,7 +25,7 @@ function dolebas_default_content_install() {
   // Set default admin theme
   \Drupal::configFactory()
    ->getEditable('system.site')
-   ->set('page.front', '/me')   
+   ->set('page.front', '/front')   
    ->save();
 
   // Hide node titles for the content types below
