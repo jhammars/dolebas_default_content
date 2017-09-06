@@ -12,8 +12,6 @@ dependencies:
     - node
     - user
     - views_bootstrap
-_core:
-  default_config_hash: 97cWui-wt-BLfn6AJekP2IKseNU6zDe1mxjIXIW8s3Y
 id: dolebas_me_view
 label: 'Dolebas Me View'
 module: views
@@ -61,15 +59,16 @@ display:
       style:
         type: views_bootstrap_grid
         options:
+          grouping: {  }
           row_class: ''
           default_row_class: true
           uses_fields: true
           alignment: horizontal
-          columns: '3'
+          columns: '1'
           col_xs: col-xs-12
-          col_sm: col-sm-6
-          col_md: col-md-4
-          col_lg: col-lg-4
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
       row:
         type: 'entity:node'
         options:
@@ -196,7 +195,7 @@ display:
           entity_type: node
           entity_field: created
           plugin_id: date
-      title: 'Dolebas'
+      title: Dolebas
       header: {  }
       footer: {  }
       empty: {  }
