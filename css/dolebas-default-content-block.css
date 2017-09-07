@@ -1,4 +1,8 @@
 .mydivclass {
-    float:right;
+    margin-right:auto;
+    margin-left:auto;
     width:370px;
+}
+.frontpage-player-block {
+    padding-bottom:45px;
 }

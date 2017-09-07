@@ -257,19 +257,3 @@ display:
         - user
         - 'user.node_grants:view'
       tags: {  }
-  page_1:
-    display_plugin: page
-    id: page_1
-    display_title: Page
-    position: 1
-    display_options:
-      display_extenders: {  }
-      path: me
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_interface'
-        - url
-        - user
-        - 'user.node_grants:view'
-      tags: {  }
