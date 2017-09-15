@@ -19,9 +19,11 @@ class DolebasDefaultContentBlock extends BlockBase {
    */
   public function build() {
 
-    $frontpage_player = \Drupal::service('plugin.manager.block')->createInstance('frontpage_player_block', []);
+    // $frontpage_player = \Drupal::service('plugin.manager.block')->createInstance('frontpage_player_block', []);
 
-    $build['#frontpage_player_block'] = $frontpage_player->build();
+    // $build['#frontpage_player_block'] = $frontpage_player->build();
+
+    $build['#dolebas_videoplayer'] = views_embed_view('dolebas_videoplayer');
 
     $build['#dolebas_me_view'] = views_embed_view('dolebas_me_view');
     

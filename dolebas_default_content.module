@@ -30,7 +30,8 @@ function dolebas_default_content_theme() {
   $theme['dolebas_default_content_block'] = array(
     'variables' => array(
       'dolebas_me_view' => NULL,
-      'frontpage_player_block' => NULL
+      'frontpage_player_block' => NULL,
+      'dolebas_videoplayer' => NULL
     ),
     'template' => 'dolebas_default_content_block',
   );

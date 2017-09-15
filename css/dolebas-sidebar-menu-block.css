@@ -8,10 +8,10 @@
 .dolebas-sidebar-menu-block .fa-bars {
     font-size: 20px;
     cursor:pointer;
-    color:grey;
+    color:#c2c2c2;
 }
 .dolebas-sidebar-menu-block .fa-bars:hover {
-    color: DimGrey;
+    color:#a2a2a2;
 }
 .dolebas-sidebar-menu-block {
     position:relative;
@@ -24,7 +24,8 @@
     display:none;
     position: fixed;
     left:0px;    
-    background: rgba(255, 255, 255, 1);
+    background: #F2F2F2; 
+    /*rgba(255, 255, 255, 1);*/
     margin-top:10px;
     width:200px;
     height:100%;
