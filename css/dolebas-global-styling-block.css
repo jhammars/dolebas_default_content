@@ -1,0 +1,31 @@
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.btn-primary {
+  color: #333 !important;
+  background-color: #fff !important;
+  border-color: #ccc !important;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #333 !important;
+  background-color: #e6e6e6 !important;
+  border-color: #8c8c8c !important;
+}
+.btn-primary:hover {
+  color: #333 !important;
+  background-color: #e6e6e6 !important;
+  border-color: #adadad !important;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #e0e0e0 !important;
+  border-color: #dbdbdb !important;
+}
+.btn-primary:active:focus {
+  background-color: #e0e0e0 !important;
+  border-color: #dbdbdb !important;
+}

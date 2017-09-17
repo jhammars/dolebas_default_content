@@ -1,22 +1,22 @@
 .dolebas-site-branding-block {
-    /*position: relative;*/
-    display:inline-block;    
+  /*position: relative;*/
+  display: inline-block;
 }
 .dolebas-site-branding {
-    margin: 0;
-    position: absolute;
-    display: inline-block;
-    padding-left:10px;
-    bottom: 15%;
-    top: 15%;
+  margin: 0;
+  position: absolute;
+  display: inline-block;
+  padding-left: 10px;
+  bottom: 15%;
+  top: 15%;
 }
 .dolebas-logo-xs {
-    max-height: 25px;
-    position: absolute;
-    transform: translate(15%, 10%);  
+  max-height: 25px;
+  position: absolute;
+  transform: translate(15%, 10%);
 }
 .dolebas-logo {
-    max-height: 20px;
-    position: absolute;
-    transform: translate(5%, 20%);      
+  max-height: 20px;
+  position: absolute;
+  transform: translate(5%, 20%);
 }

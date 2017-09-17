@@ -3,6 +3,7 @@
   height: 100%;
   width: 100%;
   background-color: #F2F2F2;
+  font-language-override: red;
 }
 .navbar .container-fluid {
   padding: 0;

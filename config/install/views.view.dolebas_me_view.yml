@@ -60,10 +60,9 @@ display:
       style:
         type: views_bootstrap_grid
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: false
-          uses_fields: false
+          uses_fields: true
           alignment: horizontal
           columns: '1'
           col_xs: col-xs-12
@@ -121,7 +120,7 @@ display:
           element_wrapper_class: ''
           element_default_classes: true
           empty: ''
-          hide_empty: true
+          hide_empty: false
           empty_zero: false
           hide_alter_empty: false
           plugin_id: add_content_views_field

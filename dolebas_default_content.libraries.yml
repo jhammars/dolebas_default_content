@@ -1,3 +1,8 @@
+dolebas-global-styling-block:
+  css:
+    theme:
+      css/dolebas-global-styling-block.css: {}
+
 dolebas-default-content-block:
   css:
     theme:
